@@ -100,9 +100,7 @@ $activeCategory = ($category === '' ? 'All' : $category);
                     <li class="mobile-auth-link"><a href="login.php">Login</a></li>
                     <li class="mobile-auth-link"><a href="register.php">Get Started</a></li>
                 <?php else: ?>
-                    <li><a href="messages.php">Messages</a></li>
                     <li><a href="tickets.php">My Tickets</a></li>
-                    <li><a href="profile.php">Profile</a></li>
                     <?php if (isOrganizer()): ?>
                         <li><a href="dashboard.php">Dashboard</a></li>
                     <?php endif; ?>

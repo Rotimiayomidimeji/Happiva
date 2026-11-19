@@ -61,9 +61,9 @@ try {
                 <span>EventSmart</span>
             </a>
             <ul class="nav-links">
-                <li><a href="index.php">Home</a></li>
                 <li><a href="events.php">Events</a></li>
-                <li><a href="tickets.php">My Tickets</a></li>
+                <li><a href="tickets.php" class="active">My Tickets</a></li>
+                <li><a href="profile.php">Profile</a></li>
             </ul>
             <div class="nav-actions">
                 <span class="user-name"><?php echo sanitize($_SESSION['user_name']); ?></span>

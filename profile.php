@@ -109,7 +109,6 @@ $pageTitle = 'My Profile - EventSmart';
             <ul class="nav-links">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="events.php">Events</a></li>
-                <li><a href="messages.php">Messages</a></li>
                 <li><a href="tickets.php">My Tickets</a></li>
                 <li><a href="profile.php" class="active">Profile</a></li>
             </ul>

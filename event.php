@@ -68,7 +68,6 @@ try {
                 <li class="mobile-auth-link"><a href="register.php">Get Started</a></li>
                 <?php endif; ?>
                 <?php if (isLoggedIn()): ?>
-                <li><a href="messages.php">Messages</a></li>
                 <li><a href="tickets.php">My Tickets</a></li>
                 <?php endif; ?>
                 <?php if (isOrganizer()): ?>

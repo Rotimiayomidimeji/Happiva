@@ -118,9 +118,8 @@ if ($eventId > 0) {
             <ul class="nav-links">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="events.php">Events</a></li>
-                <li><a href="messages.php" class="active">Messages</a></li>
                 <li><a href="tickets.php">My Tickets</a></li>
-                <li><a href="profile.php">Profile</a></li>
+                <li><a href="messages.php" class="active">Messages</a></li>
             </ul>
             <div class="nav-actions">
                 <span class="user-name"><?php echo sanitize($_SESSION['user_name']); ?></span>

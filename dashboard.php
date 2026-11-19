@@ -201,8 +201,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && (isset($_POST['scan_ticket']) || is
             <ul class="nav-links">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="events.php">Events</a></li>
-                <li><a href="tickets.php">My Tickets</a></li>
                 <li><a href="dashboard.php" class="active">Dashboard</a></li>
+                <li><a href="profile.php">Profile</a></li>
             </ul>
             <div class="nav-actions">
                 <?php if (!empty($notifications)): ?>

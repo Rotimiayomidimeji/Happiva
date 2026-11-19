@@ -1,0 +1,14 @@
+/config.local.php
+/vendor/
+/uploads/
+*.sql
+!database.sql
+*.sqlite
+*.db
+*.log
+.env
+.env.*
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
